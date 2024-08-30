@@ -1,0 +1,33 @@
+.friendItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.friendItem img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.friendListItem{
+    margin-right: 15px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+    color: black;
+}
+
+.friendList{
+    display: flex;
+    flex-direction: row;
+}
+
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
