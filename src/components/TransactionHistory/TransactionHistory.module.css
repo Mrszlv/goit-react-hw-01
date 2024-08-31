@@ -1,0 +1,34 @@
+table{
+    width: 660px;
+    border-collapse: collapse;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+thead{
+    background-color: black;
+    color: aliceblue;
+}
+
+th, td{
+    padding: 12px 15px;
+    border-left: 1px solid black;  
+}
+
+th:first-child, td:first-child {
+    border-left: none;
+}
+
+tbody tr:nth-child(odd){
+    background-color: aliceblue;
+}
+
+tbody tr:nth-child(even){
+    background-color: lightgrey;
+    color: black;
+}
+
+
+
