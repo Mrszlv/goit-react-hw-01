@@ -27,6 +27,7 @@
 }
 
 .listProfile{
+    padding: 10px;
     background-color: gray;
     display: flex;
     flex-direction: row;
