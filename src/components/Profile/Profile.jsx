@@ -11,8 +11,8 @@ return (
     />
 <div className={s.textProfile}>
     <p>{name}</p>
-    <p>@{tag}</p>
-    <p>{location}</p>
+    <p className={s.paragraphProfile}>@{tag}</p>
+    <p className={s.paragraphProfile}>{location}</p>
 </div>
   </div>
 
