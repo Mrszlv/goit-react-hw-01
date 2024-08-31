@@ -6,7 +6,6 @@
 }
 
 .friendItem img{
-    width: 50px;
     margin-bottom: 20px;
 }
 
@@ -21,6 +20,7 @@
 }
 
 .friendList{
+    margin: 20px;
     display: flex;
     flex-direction: row;
 }

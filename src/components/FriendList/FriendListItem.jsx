@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const FriendListItem = ({avatar, name, isOnline}) => {
     return (
         <div className={s.friendItem}>
-            <img src={avatar} alt={`${name}'s avatar`}/>
+            <img src={avatar} alt= "Avatar" width = "48" />
             <p>{name}</p>
             <p className={clsx(isOnline===true ? s.green : s.red)}>
                 {isOnline ? 'Online' : 'Offline'}
