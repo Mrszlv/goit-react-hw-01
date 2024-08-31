@@ -10,7 +10,7 @@ return (
     alt="User avatar"
     />
 <div className={s.textProfile}>
-    <p>{name}</p>
+    <p className={s.bold}>{name}</p>
     <p className={s.paragraphProfile}>@{tag}</p>
     <p className={s.paragraphProfile}>{location}</p>
 </div>

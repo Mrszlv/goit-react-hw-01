@@ -31,5 +31,9 @@ th:first-child, td:first-child {
     color: black;
 }
 
+.tbody tr{
+    border-bottom: 1px solid black;
+}
+
 
 
