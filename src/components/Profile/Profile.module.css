@@ -37,8 +37,12 @@
 }
 
 .itemProfile{
+    width: 100px;
     display: flex;
     flex-direction: column;
     color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-items: center;
 
 }
